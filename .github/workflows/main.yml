@@ -5,7 +5,7 @@ on:
 
 jobs:
   secure-rdp:
-    runs-on: macos-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 3600
 
     steps:
