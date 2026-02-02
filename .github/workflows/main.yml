@@ -5,8 +5,8 @@ on:
 
 jobs:
   secure-rdp:
-    runs-on: windows-11-arm
-    timeout-minutes: 3600
+    runs-on: windows-2019
+    timeout-minutes: 9999
 
     steps:
       - name: Configure Core RDP Settings
